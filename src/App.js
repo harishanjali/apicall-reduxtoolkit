@@ -1,10 +1,10 @@
-import logo from './logo.svg';
+
 import './App.css';
 import UserView  from './features/user/UserView';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <UserView/>
     </div>
   );

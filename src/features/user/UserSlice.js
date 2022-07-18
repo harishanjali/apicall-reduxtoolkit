@@ -15,7 +15,7 @@ export const fetchUsers = createAsyncThunk('user/fetchUsers', () => {
       'X-API-KEY':'53fC26YCYeoNJWMxscaeW4ZaUmKyypovMRpcvNa29h9V'
     }}
     )
-    .then(response => response.data)
+    .then(response => response.data.results.results)
 })
 
 const userSlice = createSlice({

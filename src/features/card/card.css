@@ -1,0 +1,42 @@
+
+.card{
+    width:300px;
+    height:auto;
+    border:1px solid grey;
+    border-radius: 10px;
+    margin:5px;
+    box-shadow: 0px 0px 10px grey;
+    /* padding-bottom:10px; */
+}
+img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 150px;
+    width:300px;
+}
+.description-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left:2px;
+    margin-right:2px;
+    font-size: 13px;
+    font-weight: bold;
+    padding-right:4px;
+    padding-left:4px;
+}
+.irr{
+    color: rgb(80, 188, 80);
+}
+.collection{
+    color: rgb(198, 192, 192);
+}
+.coc{
+    color:grey;
+}
+progress{
+    width:100%;
+    margin-left:2px;
+    margin-right:5px;
+    background-color: rgb(80, 188, 80);
+    height:8px;
+}
